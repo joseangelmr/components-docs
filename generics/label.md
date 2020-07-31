@@ -5,19 +5,34 @@ Breve descripción.
 
 ```js
 {
-  "type": "label",
+  "type": "object",
   "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
     "text": {
-      "type": "string",
-      "required": true,
+      "type": "string"
     },
     "color": {
-      "type": "string",
+      "type": "string"
     },
-    "background_color": {
-      "type": "string",
+    "bgColor": {
+      "type": "string"
+    },
+    "disabled": {
+      "type": "boolean",
+    },
+    "editable": {
+      "type": "boolean"
     }
   },
+  "required": [
+    "type",
+    "text",
+  ]
 }
 ```
 
@@ -25,10 +40,11 @@ Breve descripción.
 
 ```json
 {
+  "id": "username",
   "type": "label",
   "text": "Hello world",
   "color": "#3483fa",
-  "background_color": "#000",
+  "bgColor": "#000",
 }
 ```
 
