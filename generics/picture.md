@@ -8,7 +8,7 @@ Description.
   "type": "picture",
   "properties": {
     "id": {
-      "type": "string",
+      "type": "string"
     },
     "alt": {
       "type": "string"
@@ -16,22 +16,22 @@ Description.
     "src": {
       "type": "object",
       "properties": {
-          "src": {
-              "type": "string"
-          },
-          "src2x": {
-              "type": "string"
-          }
+        "src": {
+          "type": "string"
+        },
+        "src2x": {
+          "type": "string"
+        }
       },
       "required": [
-          "src",
+        "src"
       ]
     }
   },
   "required": [
-      "id",
-      "alt",
-      "src"
+    "id",
+    "alt",
+    "src"
   ]
 }
 ```
