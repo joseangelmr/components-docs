@@ -1,5 +1,5 @@
 # Label
-Breve descripción.
+Description.
 
 ## Schema
 
@@ -36,7 +36,11 @@ Breve descripción.
 }
 ```
 
-## Ejemplo
+## Related DTOs.
+
+- [TODO]
+
+## Example
 
 ```json
 {
@@ -48,8 +52,3 @@ Breve descripción.
 }
 ```
 
-## Caso de uso relacionados
-
-- [Label](https://github.com/mercadolibre/fury_advertising-components/tree/master/packages/common/src/components/label)
-- [Componente 1](https://github.com/mercadolibre/fury_advertising-components/tree/master/packages/lift-section)
-- [View 1](https://github.com)
