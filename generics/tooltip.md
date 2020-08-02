@@ -77,8 +77,22 @@ Description.
       "type": "number"
     }
   },
-  "required": [
-    "title"
+  "oneOf": [
+    {
+      "required": [
+        "title",
+      ],
+    },
+    {
+      "required": [
+        "description",
+      ],
+    },
+        {
+      "required": [
+        "description_blocks",
+      ],
+    }
   ]
 }
 ```
