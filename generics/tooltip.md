@@ -12,16 +12,16 @@ Description.
       "default": true
     },
     "title": {
-      "type": "Label"
+      "type": Label
     },
     "description": {
       "type": "node",
       "oneOf": [
         {
-          "type": "Label"
+          "type": Label
         },
         {
-          "type": "LabelComposed"
+          "type": LabelComposed
         }
       ]
     },
@@ -29,10 +29,10 @@ Description.
       "type": "array",
       "anyOf": [
         {
-          "type": "Label"
+          "type": Label
         },
         {
-          "type": "LabelComposed"
+          "type": LabelComposed
         }
       ]
     },
