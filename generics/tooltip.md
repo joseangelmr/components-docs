@@ -9,64 +9,76 @@ Description.
   "properties": {
     "visible": {
       "type": "boolean",
-      "default": true,
-    }
+      "default": true
+    },
     "title": {
-      "type": Label,
+      "type": "Label"
     },
     "description": {
       "type": "node",
-      "oneOf": [
+      "oneOf": [
         {
-          "type": Label
+          "type": "Label"
         },
         {
-          "type": LabelComposed
-        },
+          "type": "LabelComposed"
+        }
       ]
     },
     "description_blocks": {
       "type": "array",
       "anyOf": [
         {
-          "type": Label
+          "type": "Label"
         },
         {
-          "type": LabelComposed
-        },
+          "type": "LabelComposed"
+        }
       ]
     },
     "side": {
       "type": "string",
-      "enum": ["top", "bottom","leftTop",
-    "rightTop",
-    "bottomRight",
-    "bottomLeft",
-    "topLeft",
-    "topRight",
-    "left",
-    "right"],
-    "default": "top",
+      "enum": [
+        "top",
+        "bottom",
+        "leftTop",
+        "rightTop",
+        "bottomRight",
+        "bottomLeft",
+        "topLeft",
+        "topRight",
+        "left",
+        "right"
+      ],
+      "default": "top"
     },
     "trigger": {
       "type": "string",
-      "enum": ["click", "hover", "no-trigger"],
-      "default": "hover",
+      "enum": [
+        "click",
+        "hover",
+        "no-trigger"
+      ],
+      "default": "hover"
     },
     "hierarchy": {
       "type": "string",
-      "enum": ["light", "dark", "highlight"],
-      "default": "light",
+      "enum": [
+        "light",
+        "dark",
+        "highlight"
+      ],
+      "default": "light"
     },
     "offsetX": {
-      "type": "number",
+      "type": "number"
     },
     "offsetY": {
-      "type": "number",
+      "type": "number"
     }
   },
   "required": [
-    "title",
+    "title"
   ]
 }
 ```
