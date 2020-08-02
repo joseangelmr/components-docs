@@ -101,6 +101,7 @@ Description.
 
 - [Label](https://github.com/joseangelmr/components-docs/blob/master/generics/label.md)
 - [Label Composed](https://github.com/joseangelmr/components-docs/blob/master/generics/label_composed.md)
+- [Price](https://github.com/joseangelmr/components-docs/blob/master/generics/price.md)
 
 ## Example
 
@@ -120,9 +121,6 @@ Description.
 ```json
 {
   "type": "tooltip",
-  "title": {
-    "text": "Ingresos"
-  },
   "description": {
     "text": "Directos {direct} | Asistidos {no_direct}",
     "values": {
@@ -146,9 +144,6 @@ Description.
 ```json
 {
   "type": "tooltip",
-  "title": {
-    "text": "Ingresos"
-  },
   "description_blocks": [
     {
       "text": "Los ingresos directos son los que obtienes por ventas directas de tus Product Ads."
