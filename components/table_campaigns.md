@@ -88,7 +88,6 @@ Description.
               "orders": {
                 "type": Label,
               },
-              "tracks": Tracks,
             },
           }
         ]
