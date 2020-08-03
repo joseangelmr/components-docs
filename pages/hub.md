@@ -136,6 +136,8 @@ Description.
 ## Example
 
 ### basic
+<details>
+  <summary>Click to expand!</summary>
 
 ```json
 {
@@ -2306,3 +2308,4 @@ Description.
   }
 }
 ```
+</details>
