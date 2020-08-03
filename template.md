@@ -5,9 +5,16 @@ Description.
 
 ```js
 {
-  "type": "",
-  "properties": {},
-  "required": []
+  "type": "object",
+  "properties": {
+    "bar": {
+      "type": "string",
+      "default": Foo,
+    }
+  },
+  "required": [
+    "foo",
+  ]
 }
 ```
 
