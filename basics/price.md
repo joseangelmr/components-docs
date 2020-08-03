@@ -5,8 +5,12 @@ Description.
 
 ```js
 {
-  "type": "price",
+  "type": "object",
   "properties": {
+    "type": {
+      "type": "string",
+      "default": "price",
+    },
     "label": {
       "type": Label,
     },

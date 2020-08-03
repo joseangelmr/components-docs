@@ -5,8 +5,12 @@ Description.
 
 ```js
 {
-  "type": "icon",
+  "type": "object",
   "properties": {
+    "type": {
+      "type": "string",
+      "default": "icon",
+    },
     "id": {
       "type": "string",
     },

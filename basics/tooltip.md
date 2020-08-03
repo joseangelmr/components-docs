@@ -5,8 +5,12 @@ Description.
 
 ```js
 {
-  "type": "tooltip",
+  "type": "object",
   "properties": {
+    "type": {
+      "type": "string",
+      "default": "tooltip",
+    },
     "visible": {
       "type": "boolean",
       "default": true

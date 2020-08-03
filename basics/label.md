@@ -11,7 +11,8 @@ Description.
       "type": "string"
     },
     "type": {
-      "type": "string"
+      "type": "string",
+      "default": "label",
     },
     "text": {
       "type": "string"
