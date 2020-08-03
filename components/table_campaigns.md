@@ -129,7 +129,8 @@ Description.
         "next_label": Label,
         "prev_label": Label,
       }
-    }
+    },
+    "tracks": Tracks,
   },
   "required": [
     "type",
@@ -137,6 +138,7 @@ Description.
     "rows",
     "paging",
     "metadata",
+    "tracks",
   ]
 }
 ```
